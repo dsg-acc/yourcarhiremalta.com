@@ -1,0 +1,7 @@
+
+START TRANSACTION;
+
+
+ALTER TABLE `working_times` MODIFY `id` int(10) unsigned NOT NULL AUTO_INCREMENT;
+
+COMMIT;

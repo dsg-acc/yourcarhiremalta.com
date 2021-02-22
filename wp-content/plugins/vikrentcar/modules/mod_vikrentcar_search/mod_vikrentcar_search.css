@@ -1,0 +1,152 @@
+.vrcdivsearchmodule {
+	background:#fbfbfb;
+	border-radius:4px;
+	-moz-border-radius:4px;
+	-webkit-border-radius:4px;
+	border:0;
+	padding: 15px;
+}
+.vrcdivsearch .vrcsfentrycont select, 
+.vrcdivsearch .vrcsfentrycont input {
+	font-size: .8em;
+	text-transform: uppercase;
+}
+.vrcdivsearchmodule .vrcsfentrycont .vrcsfentrydate .hasDatepicker {
+	border-radius: 0;
+	padding: 0;
+	height: 34px;
+	float: left;
+	margin: 0 10px 0 0;
+	border: 0;
+	box-shadow: none;
+	flex: 1;
+}
+.vrcdivsearchmodule .vrcsfentrycont .vrcsfentrydate .ui-datepicker-trigger {
+	display: none;
+}
+.vrcdivsearchmodule .vrcsfentryselect select {
+    padding: 0 5px 0;
+    font-size: .8em !important;
+    line-height: 1;
+    border:0; 
+    border-radius: 2px;
+    height: 34px;
+    width: auto;
+    margin-bottom: 0;
+    border: 1px solid #ddd;
+}
+.vrcdivsearchmodule .vrcsfentrycont #vrcmodselph, 
+.vrcdivsearchmodule .vrcsfentrycont #vrcmodselpm,
+.vrcdivsearchmodule .vrcsfentrycont #vrcmodseldh, 
+.vrcdivsearchmodule .vrcsfentrycont #vrcmodseldm {
+	display: inline-block;
+   float: left;
+}
+.vrcdivsearchmodule .vrcsfentrycont .vrctimesep {
+	display: inline-block;
+	padding: 5px;
+	float: left;
+}
+.vrcdivsearchmodule .vrcsfentrycont #vrcmodselph select,
+.vrcdivsearchmodule .vrcsfentrycont #vrcmodselpm select,
+.vrcdivsearchmodule .vrcsfentrycont #vrcmodseldh select,
+.vrcdivsearchmodule .vrcsfentrycont #vrcmodseldm select {
+    padding: 0 5px 0;
+    font-size: 12px;
+    line-height: 1;
+    border:0; 
+    height: 34px;
+    -webkit-a5ppearance: none;
+    color:#999;
+    border-radius: 2px;
+    margin-bottom: 0;
+    border: 1px solid #ddd;
+}
+.vrcdivsearch .vrcsfentrycont label {
+	display: inline-block;
+	margin: 0 5px 5px 0;
+	width: 100%;
+}
+.vrcdivsearch .vrcsfentrycont .vrcsfentrylabsel {
+	float: left;
+	min-width: 200px;
+}
+.vrcdivsearchmodule .vrcsfentrycont .vrcsfentrytime {
+	float: left;
+	width: 50%;
+	/** @wponly **/
+	margin: 0 0 0 21px;
+}
+.vrcdivsearch .vrcsfentrylabsel label {
+	display: block;
+}
+.vrcdivsearch .vrcsfentrylabsel .vrcsfentrydate {
+	background: #fff;
+	padding: 0 10px;
+	color: #666;
+	border-radius: 2px;
+	border: 1px solid #ddd;
+	display: flex;
+}
+.vrcdivsearch .vrcsfentrylabsel .vrcsfentrydate i {
+	margin-top: 9px;
+	font-size: .8em;
+}
+.vrcdivsearch .vrcsfentrycont div {
+	display: inline-block;
+}
+.vrcdivsearchmodule .vrcsfentrysubmit {
+	width: 100%;
+}
+.vrcdivsearchmodule .vrcsfentrysubmit .vrcsearch {
+	width: 93%;
+}
+.vrc-searchmod-wrap-horizontal > form {
+	display: flex;
+}
+.vrc-searchmod-wrap-horizontal > form > div {
+	flex: 1;
+}
+.vrc-searchmod-wrap-horizontal > form .vrc-searchmod-section-pickup {
+	display: flex;
+	flex-wrap: wrap;
+	max-width: 200px;
+	margin-right: 10px;
+}
+.vrc-searchmod-wrap-horizontal > form .vrc-searchmod-section-datetimes .vrcsfentrycont {
+	display: flex;
+	width: 100%;
+}
+.vrc-searchmod-wrap-horizontal .vrcsfentrycont .vrcsfentrylabsel {
+	min-width: 150px;
+	margin-right: 10px;
+}
+
+.vrc-searchmod-wrap-horizontal .vrc-searchmod-section-categories {
+	flex: inherit;	
+}
+.vrc-searchmod-wrap-horizontal .vrcsfentrycont .vrcsfentrytime {
+	width: auto;
+}
+.vrc-searchmod-wrap-horizontal .vrcsfentrysubmit .vrcsearch {
+	width: auto;
+}
+.vrc-searchmod-wrap-vertical > form > div {
+	margin: 5px 0;
+}
+.vrc-searchmod-wrap-vertical .vrc-searchmod-section-datetimes {
+	display: inline-block;
+}
+.vrc-searchmod-wrap-vertical .vrc-searchmod-section-datetimes .vrcsfentrycont {
+	display: inline-block;
+	width: 100%;
+}
+.vrc-searchmod-wrap-vertical .vrc-searchmod-section-sbmt {
+	margin-top: 10px;
+}
+
+@media screen and (max-width : 580px) {
+	.vrc-searchmod-wrap-vertical form .vrc-searchmod-section-datetimes .vrcsfentrylabsel {
+		flex: 1;
+	}
+}

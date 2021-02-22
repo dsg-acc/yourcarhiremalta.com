@@ -1,0 +1,7 @@
+
+START TRANSACTION;
+
+
+ALTER TABLE `dates` MODIFY `id` int(10) unsigned NOT NULL AUTO_INCREMENT;
+
+COMMIT;
